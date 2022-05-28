@@ -5,6 +5,7 @@ import Statistics from './Statistics/Statistics';
 import data from './Statistics/data.json';
 
 
+
 export const App = () => {
   return (
     <>
@@ -15,8 +16,15 @@ export const App = () => {
   avatar={user.avatar}
   stats={user.stats}
       />
-  <Statistics title="Upload stats" stats={data.label} />
-  {/* <Statistics stats={data.percentage} />; */}
+<br />
+      <Statistics
+        title="Upload stats"
+        stats={data.label} />
+      {/* <Statistics stats={data.percentage} />;  */}
+    {/* <FriendList friends={friends} />, */}
+      
     </>
   );
 };
+
+

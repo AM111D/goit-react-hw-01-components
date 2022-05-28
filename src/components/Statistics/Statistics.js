@@ -27,7 +27,7 @@ const Statistics = ({ title, stats }) => {
 </section>
 }
 
-Statistics.PropTypes = {
+Statistics.prototype = {
     label: PropTypes.string.isRequired,
     percentage: PropTypes.number.isRequired,
 }
