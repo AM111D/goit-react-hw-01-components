@@ -1,0 +1,40 @@
+ul {
+  margin-top: 10px;
+}
+
+.item {
+  display: flex;
+  border: 3px solid;
+  border-radius: 10px;
+  width: 350px;
+  margin-bottom: 5px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.green {
+  padding: 5px;
+  background-color: green;
+  height: 15px;
+  width: 15px;
+  border-radius: 40%;
+  margin: auto 0;
+}
+
+.red {
+  padding: 5px;
+  background-color: red;
+  height: 15px;
+  width: 15px;
+  border-radius: 40%;
+  margin: auto 0;
+}
+
+.avatar {
+  margin: 10px 10px;
+}
+
+.name {
+  margin: 20px;
+  font-size: 25px;
+}
