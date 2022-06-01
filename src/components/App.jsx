@@ -13,19 +13,18 @@ export const App = () => {
   return (
     <>
     <Profile
-  username={user.username}
+  name={user.name}
   tag={user.tag}
   location={user.location}
   avatar={user.avatar}
   stats={user.stats}
       />
-<br />
       <Statistics
         title="Upload stats"
-        stats={data.label} />
-      {/* <Statistics stats={data.percentage} />;  */}
+        stats={data} />
+     
+
     <FriendList friends={friends} />
-      <br />
       <TransactionHistory items={transactions} />;
     </>
   );
