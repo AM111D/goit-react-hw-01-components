@@ -1,7 +1,27 @@
 .profile {
     background-color: rgb(194, 188, 239);
     width: 300px;
-    height: 420px;
+    height: 400px;
+    margin-top: 10px;
+    padding-top: 25px;
+    margin-left: 100px;
+}
+
+.avatar {
+    display: block;
+    margin: 0 auto;
+}
+
+.name {
+text-align: center;
+}
+
+.tag {
+    text-align: center;
+}
+
+.location {
+    text-align: center;
 }
 
 .stats {

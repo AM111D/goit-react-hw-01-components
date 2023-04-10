@@ -1,4 +1,5 @@
 import TransactionHistoryItems from "./TransactionHistoryItems";
+import PropTypes from 'prop-types'; 
 
 const TransactionHistory = ({ items }) => {
     return (
@@ -25,3 +26,7 @@ const TransactionHistory = ({ items }) => {
   };
 
 export default TransactionHistory;
+
+TransactionHistory.propTypes = {
+  items: PropTypes.array.isRequired
+}

@@ -1,5 +1,6 @@
 import FriendsListItem from './FriendListItem';
-// const {id, avatar, isOnline, name} = friends;
+import PropTypes from 'prop-types'; 
+
 const FriendList = ({friends}) => {
     return (
       <ul className="friend-list">
@@ -17,3 +18,8 @@ const FriendList = ({friends}) => {
 }
 
 export default FriendList;
+
+FriendList.propTypes = {
+  friends: PropTypes.array.isRequired
+}
+

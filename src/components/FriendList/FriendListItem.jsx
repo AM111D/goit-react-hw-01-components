@@ -1,4 +1,5 @@
 import './FriendsList.css';
+import PropTypes from 'prop-types'; 
 
 const FriendsListItem = ({id,avatar,name,isOnline}) => {
     return (
@@ -12,3 +13,10 @@ const FriendsListItem = ({id,avatar,name,isOnline}) => {
 }
 
 export default FriendsListItem;
+
+FriendsListItem.propTypes = {
+    id: PropTypes.number.isRequired,
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired
+  }
