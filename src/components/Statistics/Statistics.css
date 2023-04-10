@@ -1,0 +1,25 @@
+.title {
+    color: gray;
+}
+
+.statistics {
+    border: 1px solid;
+    width: 300px;
+}
+
+.stat-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+
+.itemLabel {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    border: 1px solid;
+    padding: 12px;
+}

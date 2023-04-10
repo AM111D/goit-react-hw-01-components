@@ -1,0 +1,15 @@
+.statusDot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+  }
+  
+  .statusDot.online {
+    background-color: green;
+  }
+  
+  .statusDot.offline {
+    background-color: red;
+  }
