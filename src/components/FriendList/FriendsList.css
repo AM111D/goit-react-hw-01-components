@@ -18,11 +18,12 @@
   .friend-list {
     /* margin: 0 auto; */
     margin-top: 55px;
+    margin-left: -35px;
   }
 
   .item {
     display: flex;
-    margin: 0 330px;
+    margin: 0 auto;
     border: 1px solid tomato;
     width: 340px;
     margin-bottom: 15px;
