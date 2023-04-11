@@ -1,0 +1,34 @@
+/* .transaction-history {
+    margin: 0 auto;
+}
+
+.table{}
+
+.tableName{}
+
+.tableСolumn {}
+
+.tableCell {} */
+
+
+
+.transaction-history {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.transaction-history th {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.transaction-history td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.transaction-history tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

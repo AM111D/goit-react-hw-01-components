@@ -4,6 +4,7 @@
     height: 8px;
     border-radius: 50%;
     background-color: green;
+    margin: 25px;
   }
   
   .statusDot.online {
@@ -12,4 +13,25 @@
   
   .statusDot.offline {
     background-color: red;
+  }
+
+  .friend-list {
+    /* margin: 0 auto; */
+    margin-top: 55px;
+  }
+
+  .item {
+    display: flex;
+    margin: 0 220px;
+    border: 1px solid tomato;
+    width: 340px;
+    margin-bottom: 15px;
+  }
+
+  /* .avatar {
+
+  } */
+
+  .friendsAvatar {
+    margin-right: 55px;
   }

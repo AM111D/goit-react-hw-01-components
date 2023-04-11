@@ -1,16 +1,20 @@
 .title {
-    color: gray;
+    color: rgb(207, 12, 12);
+    text-align: center;
 }
 
 .statistics {
-    border: 1px solid;
+    border: 2px solid;
     width: 300px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .stat-list {
     display: flex;
     justify-content: space-between;
     padding: 0;
+    border: 2px solid rgb(33, 106, 170);
 }
 
 
@@ -19,7 +23,8 @@
     flex-direction: column;
 }
 
-.item {
-    border: 1px solid;
+.StatListItem {
+    border: 1px solid rgb(33, 106, 170);
+    /* border-radius: 25px; */
     padding: 12px;
 }
