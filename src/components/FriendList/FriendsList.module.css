@@ -15,8 +15,7 @@
     background-color: red;
   }
 
-  .friend-list {
-    /* margin: 0 auto; */
+  .friendList {
     margin-top: 55px;
     margin-left: -35px;
   }
@@ -28,10 +27,6 @@
     width: 340px;
     margin-bottom: 15px;
   }
-
-  /* .avatar {
-
-  } */
 
   .friendsAvatar {
     margin-right: 55px;
