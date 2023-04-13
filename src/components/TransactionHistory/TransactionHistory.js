@@ -4,12 +4,12 @@ import css from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table className="transactionHistory">
+    <table className={css.transactionHistory}>
       <thead>
-        <tr className="table">
-          <th className="tableName">Type</th>
-          <th className="tableName">Amount</th>
-          <th className="tableName">Currency</th>
+        <tr className={css.table}>
+          <th className={css.tableName}>Type</th>
+          <th className={css.tableName}>Amount</th>
+          <th className={css.tableName}>Currency</th>
         </tr>
       </thead>
       <tbody>
@@ -29,5 +29,11 @@ const TransactionHistory = ({ items }) => {
 export default TransactionHistory;
 
 TransactionHistory.propTypes = {
-  items: PropTypes.array.isRequired,
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.string.isRequired,
+    })
+  ),
 };

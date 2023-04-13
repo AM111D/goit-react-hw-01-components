@@ -3,7 +3,7 @@ import css from './TransactionHistory.module.css';
 
 const TransactionHistoryItems = ({ id, type, amount, currency }) => {
   return (
-    <tr key={id}>
+    <tr key={id} id={id}>
       <td>{type}</td>
       <td>{amount}</td>
       <td>{currency}</td>
